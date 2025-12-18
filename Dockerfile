@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 RUN echo ">> install distro packages ..." &&  \
     apt update && \
-    apt -y install bash-completion sudo binutils-mips-linux-gnu wget make git python3 libcapstone-dev pkg-config build-essential
+    apt -y install bash-completion sudo binutils-mips-linux-gnu wget make git python3 libcapstone-dev pkg-config build-essential gzip
 
 # Hint: comment out qemu installation, if you're using ido recomp
 RUN echo ">> install qemu ..." &&  \
@@ -11,8 +11,7 @@ RUN echo ">> install qemu ..." &&  \
 
 RUN echo ">> setup workspace ..." &&  \
     echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
-    useradd -ms /bin/bash dev && usermod -aG sudo dev && \
-    mkdir -p /home/dev/project
+    useradd -ms /bin/bash dev && usermod -aG sudo dev
 USER dev
 WORKDIR /home/dev/project
 

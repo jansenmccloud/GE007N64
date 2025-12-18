@@ -63,7 +63,7 @@ sudo dpkg -i qemu-irix-2.11.0-2169-g32ab296eef_amd64.deb
 
 ### C. Docker Compose
 
-* run and connect to shell in project root: `docker-compose run ge007 sh`
+* run and connect to shell in project root: `docker-compose run ge007 bash`
 
 Alternatively, you can start the container with `docker compose up` and connect to the container in e.g. docker desktop
 

@@ -37,3 +37,4 @@ It builds the following ROMs:
 * [Setup Guide:](./docs/SetupGuide.md) useful information about installing the necessary dependencies and how to use it
 * [Structure Guide:](./docs/StructureGuide.md) learn more about the project structure of this repository
 * [Style Guide:](./docs/StyleGuide.md) code style conventions if you want to contribute code
+* [Error logs](./docs/errorlog.md) chronological protocol of errors during building or development for later investigation
