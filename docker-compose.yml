@@ -9,3 +9,4 @@ services:
         volumes:
             - ./build:/home/dev/build
         hostname: ge007
+        tty: true
