@@ -67,7 +67,6 @@ build/*
 build-*/*
 notes/*
 !build/test.c
-!notes/StyleGuide.md
 #tools
 tools/extractor/*.o
 tools/extractor/extractor
