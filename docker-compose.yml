@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    ge007:
+        restart: unless-stopped
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        volumes:
+            - ./build:/home/dev/build
+        hostname: ge007
