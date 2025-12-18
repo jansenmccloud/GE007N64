@@ -65,6 +65,7 @@ assets/ramrom/[eju]/*.bin
 bin/*
 build/*
 build-*/*
+notes/*
 !build/test.c
 #tools
 tools/extractor/*.o

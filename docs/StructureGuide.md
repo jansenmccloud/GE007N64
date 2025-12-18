@@ -1,6 +1,4 @@
-# TODO - clean up + TOC
-
-## Project Structure
+# Project Structure
 
 ```
 goldeneye_src

@@ -13,6 +13,14 @@
 [PAL-link]: https://kholdfuzion.github.io/goldeneyestatus/EU.htm
 [PAL-badge]: ../../workflows/EU-Status/badge.svg
 
+## About this fork
+
+This fork is a personal clean up of the main repository that mirrors https://gitlab.com/kholdfuzion/goldeneye_src .
+The fork helps me to understand the state of the decompilation project by updating the initial setup guide and reordering the project files.
+
+Most of the project was done by other people that you can find in the git history and the references linked in the documents.
+
+## About this repository
 
 This is a WIP decompilation of Goldeneye 007!
 
@@ -24,4 +32,8 @@ It builds the following ROMs:
 
 **Note: This repository does not include all assets necessary for compiling the ROMs. A prior copy of the game is required to extract the assets.**
 
-## TODO link sub pages + TOC
+## Documentation
+
+* [Setup Guide:](./docs/SetupGuide.md) useful information about installing the necessary dependencies and how to use it
+* [Structure Guide:](./docs/StructureGuide.md) learn more about the project structure of this repository
+* [Style Guide:](./docs/StyleGuide.md) code style conventions if you want to contribute code
