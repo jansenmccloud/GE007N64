@@ -11,7 +11,7 @@ char *LoptionsE[] = {
  "move sight\n", //OPTION_STR_08
  "1.1 honey\n", //OPTION_STR_09
  "1.2 solitaire\n", //OPTION_STR_0A
- "1.3 kissy\n", //OPTION_STR_0B
+ "1.3 fishy\n", //OPTION_STR_0B
  "1.4 goodnight\n", //OPTION_STR_0C
  "2.1 plenty\n", //OPTION_STR_0D
  "2.2 galore\n", //OPTION_STR_0E

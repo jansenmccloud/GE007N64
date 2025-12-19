@@ -11,7 +11,7 @@ enum LOPTIONE_STRINGS
     OPTION_STR_08_MOVESIGHT_LF,          //"move sight\n",
     OPTION_STR_09_11HONEY_LF,            //"1.1 honey\n",
     OPTION_STR_0A_12SOLITAIRE_LF,        //"1.2 solitaire\n",
-    OPTION_STR_0B_13KISSY_LF,            //"1.3 kissy\n",
+    OPTION_STR_0B_13KISSY_LF,            //"1.3 fishy\n",
     OPTION_STR_0C_14GOODNIGHT_LF,        //"1.4 goodnight\n",
     OPTION_STR_0D_21PLENTY_LF,           //"2.1 plenty\n",
     OPTION_STR_0E_22GALORE_LF,           //"2.2 galore\n",

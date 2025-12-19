@@ -8839,8 +8839,13 @@ void bondviewProcessInput(s8 stick_x, s8 stick_y, u16 buttons, u16 oldbuttons)
         else
         {
             /* 1.3 and 1.4 */
-            if (cur_player_get_control_type() == CONTROLLER_CONFIG_KISSY
-                || cur_player_get_control_type() == CONTROLLER_CONFIG_GOODNIGHT)
+            if (cur_player_get_control_type() == CONTROLLER_CONFIG_KISSY)
+            {
+                shootButtons = A_BUTTON | U_JPAD; // support original N64 fishing rod controller
+                aimButtons = Z_TRIG;
+                invButtons = L_TRIG | R_TRIG;
+            }
+            else if (cur_player_get_control_type() == CONTROLLER_CONFIG_GOODNIGHT)
             {
                 shootButtons = A_BUTTON;
                 aimButtons = Z_TRIG;
@@ -8960,9 +8965,19 @@ void bondviewProcessInput(s8 stick_x, s8 stick_y, u16 buttons, u16 oldbuttons)
 
                         moveData.canLookAhead = !g_CurrentPlayer->insightaimmode;
 
-                        if ((!g_CurrentPlayer->insightaimmode) && (buttons & (U_JPAD | U_CBUTTONS)) )
+                        // suppress looking on D-pad up for N64 fishing rod controller
+                        if (cur_player_get_control_type() == CONTROLLER_CONFIG_KISSY)
                         {
-                            moveData.speedVertaDown = 1.0f;
+                            if ((!g_CurrentPlayer->insightaimmode) && (buttons & U_CBUTTONS) )
+                            {
+                                moveData.speedVertaDown = 1.0f;
+                            }
+                        }
+                        else {
+                            if ((!g_CurrentPlayer->insightaimmode) && (buttons & (U_JPAD | U_CBUTTONS)) )
+                            {
+                                moveData.speedVertaDown = 1.0f;
+                            }
                         }
 
                         if ((!g_CurrentPlayer->insightaimmode) && (buttons & (D_JPAD | D_CBUTTONS)))

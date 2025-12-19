@@ -702,7 +702,7 @@ struct MP_handicap_menu MP_handicap_table[] = {
 struct MP_controller_configuration_menu MP_controller_configuration_table[] = {
     {getStringID(LTITLE, TITLE_STR_277_11HONEY), 0, 1}, //1.1 Honey*
     {getStringID(LTITLE, TITLE_STR_278_12SOLITAIRE), 1, 1}, //1.2 Solitaire*
-    {getStringID(LTITLE, TITLE_STR_279_13KISSY), 2, 1}, //1.3 Kissy*
+    {getStringID(LTITLE, TITLE_STR_279_13KISSY), 2, 1}, //1.3 Fishy*
     {getStringID(LTITLE, TITLE_STR_280_14GOODNIGHT), 3, 1}, //1.4 Goodnight*
     {getStringID(LTITLE, TITLE_STR_281_21PLENTY), 4, 2}, //2.1 Plenty*
     {getStringID(LTITLE, TITLE_STR_282_22GALORE), 5, 2}, //2.2 Galore*
