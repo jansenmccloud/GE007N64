@@ -20,22 +20,24 @@ The fork helps me to understand the state of the decompilation project by updati
 
 Most of the project was done by other people that you can find in the git history and the references linked in the documents.
 
-### Fork branches
+## About this branch
 
-[**>> hack_N64FishingRod_controlStyle**:](https://github.com/jansenmccloud/GE007N64/tree/hack_N64FishingRod_controlStyle)
+[**hack_N64FishingRod_controlStyle**:](https://github.com/jansenmccloud/GE007N64/tree/hack_N64FishingRod_controlStyle)
+* patch: [download here](./patches/GE_007_fishingRod_support.zip)
 * makes it possible to use the original N64 fishing rod controller to play goldeneye on original hardware!
 * in-game control style "1.3 Kissy" is replaced by "1.3 Fishy":
 
-| Action           | Controls                                 |
-|------------------|------------------------------------------|
-| standard fire    | A-Button                                 |
-| gatling gun fire | Fishing Rod Crank forward (aka D-Pad Up) |
-| move/ turn       | Joystick                                 |
-| action           | B-Button                                 |
-| next weapon      | R-Button, L-Button                       |
-| strafe           | C Left / C Right                         |
-| look             | C Up / C Down                            |
-| pause            | Start                                    |
+| Action           | Controls                             |
+|------------------|--------------------------------------|
+| standard fire    | A-Button                             |
+| gatling gun fire | Fishing Rod Crank forward (D-Pad Up) |
+| move/ turn       | Joystick                             |
+| action           | B-Button                             |
+| aim              | Z-Button                             |
+| next weapon      | R-Button, L-Button                   |
+| strafe           | C Left / C Right                     |
+| look             | C Up / C Down                        |
+| pause            | Start                                |
 
 ## About this repository
 
